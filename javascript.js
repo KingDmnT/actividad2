@@ -1,4 +1,4 @@
-var nombre = document.getElementById("nombre");
+var rut = document.getElementById("rut");
  var password = document.getElementById("password");
  var error = document.getElementById("error");
  error.style.color = "red";
@@ -19,7 +19,7 @@ var nombre = document.getElementById("nombre");
 //    error.innerHTML = mensajesError.join(", ")
 
 //    return false;
-//}
+//    
 
 
 var form = document.getElementById("formulario");

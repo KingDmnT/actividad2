@@ -18,7 +18,7 @@
 <form action="" id="formulario">
     <div>
         <label for="rut">Rut</label>
-        <input type="number" minlength="9" maxlength="10" id = 'Rut'>
+        <input type="number" minlength="9" maxlength="10" id = 'rut'>
     </div>
     <div>
         <label for="appaterno">Apellido Paterno</label>
@@ -29,12 +29,14 @@
         <input type="text"  minlength="3" maxlength="20" id = 'appaterno'>
     </div>
     <div>
-        <label for="nombre">Nombre</label>
-        <input type="text" id = 'nombre'>
+        <label for="edad">Edad</label>
+        <input type="number" min="18" max="35" id = 'edad'>
     </div>
     <div>
-        <label for="nombre">Nombre</label>
-        <input type="text" id = 'nombre'>
+        <label for="generom">Masculino</label>
+        <input type="checkbox" id = 'generom'>
+        <label for="generof">Femenino</label>
+        <input type="checkbox" id = 'generof'>
     </div>
     <div>
         <label for="nombre">Nombre</label>
@@ -67,6 +69,6 @@
 <div id ='error'></div>
 
     
-<script src = 'app.js'></script>    
+<script src = 'javascript.js'></script>    
 </body>
 </html>
