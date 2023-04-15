@@ -4,13 +4,6 @@
     <meta charset="UTF-8">
     <title>formvalidation</title>
 
-<style>
-    label{
-        display: block;
-        float: left;
-        width: 70px;
-    }
-    
 
 </style>
 </head>
@@ -21,10 +14,6 @@
         <input type="number" minlength="9" maxlength="10" id = 'rut'>
     </div>
     <div>
-        <label for="nombre">Nombre</label>
-        <input type="text" id = 'nombre'>
-    </div>
-    <div>
         <label for="appaterno">Apellido Paterno</label>
         <input type="text"  minlength="3" maxlength="20" id = 'appaterno'>
     </div>
@@ -33,9 +22,18 @@
         <input type="text"  minlength="3" maxlength="20" id = 'appaterno'>
     </div>
     <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" id = 'nombre'>
+    </div>
+    <div>
+        <label for="fechanacimiento">Fecha de nacimiento</label>
+        <input type="date" id = 'fechanacimiento'>
+    </div>
+    <div>
         <label for="edad">Edad</label>
         <input type="number" min="18" max="35" id = 'edad'>
     </div>
+
     <div>
         <label for="generom">Masculino</label>
         <input type="checkbox" id = 'generom'>
@@ -43,9 +41,21 @@
         <input type="checkbox" id = 'generof'>
     </div>
     <div>
-        <label for="nombre">Nombre</label>
-        <input type="text" id = 'nombre'>
+        <label for="email"><E-mail></E-mail></label>
+        <input type="text" id ='email'>
     </div>
+    <div>
+        <label for="celular">Celular</label>
+        <input type="number" minlength="9" maxlength ="12" id = 'celular'>
+    </div>
+    <div>
+        <label for="profesion">Profesión</label>
+        <input type="text" id = 'profesion'>
+    </div>
+    <div>
+        <textarea name="textarea" rows="10" cols="50">Escriba su carta de presentación</textarea>
+    </div>
+    
 
     <input type="submit" value = 'Enviar' > 
 
@@ -54,6 +64,7 @@
 <div id ='error'></div>
 
     
-<script src = 'javascript.js'></script>    
+<script src = 'javascript.js'></script>  
+<script src="style.css" ></script>  
 </body>
 </html>
