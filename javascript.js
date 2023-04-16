@@ -1,34 +1,17 @@
 var rut = document.getElementById("rut");
-var appaterno = document.getElementById("rut");
-var apmaterno = document.getElementById("rut");
-var nombre = document.getElementById("rut");
-var fechanacimiento = document.getElementById("rut");
-var edad = document.getElementById("rut");
-var generos = document.getElementById("rut");
-var email = document.getElementById("rut");
-var celular = document.getElementById("rut");
-var profesion = document.getElementById("rut");
-var motivacion = document.getElementById("rut");
+var appaterno = document.getElementById("appaterno");
+var apmaterno = document.getElementById("apmaterno");
+var nombre = document.getElementById("nombre");
+var fechanacimiento = document.getElementById("fechanacimiento");
+var edad = document.getElementById("edad");
+var generos = document.getElementById("generos");
+var email = document.getElementById("email");
+var celular = document.getElementById("celular");
+var profesion = document.getElementById("profesion");
+var motivacion = document.getElementById("motivacion");
 var error = document.getElementById("error");
 error.style.color = "red";
 
-//function enviarFormulario(){
-  //  console.log("Enviando Formulario ...");
-
- //   var mensajesError = [];
-
- //   if (nombre.value === null || nombre.value === ""){
- //       mensajesError.push("Ingresa tu nombre");
- //   }
-
-//    if (password.value === null || password.value === ""){
-//        mensajesError.push("Ingresa tu password");
-//    }
-
-//    error.innerHTML = mensajesError.join(", ")
-
-//    return false;
-//    
 
 
 var form = document.getElementById("formulario");
